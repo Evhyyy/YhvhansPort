@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sour-gummy-heading {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;  /* Choose a desired weight */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+
+.BG {
+    margin-top: -10px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+    width: 1315px;
+    height: 625px;
+}
+
+.LoginBOX {
+    position: absolute;
+    top: 5%; 
+    left: 38%; 
+    width: 320px; 
+    height: 320px; 
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px #5f91ce; 
+    padding: 20px; 
+}
+
+
+.LogInText {
+    margin-top: -10px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 50px;  
+    color: #428ce2;
+    font-style: oblique;
+    font-weight: 700;  
+  }
+
+.UserName {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;  
+    color: #428ce2;
+    font-style: oblique;
+    font-weight: 700;  
+
+}
+
+.InputUsername {
+    margin-top: 2px;
+    margin-left: 20px;
+    background-color: #dcecff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    font-family: "Sour Gummy", sans-serif;
+    color: #428ce2;
+    font-size: 20px;
+}
+
+.UserPassword {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;  
+    color: #428ce2;
+    font-style: oblique;
+    font-weight: 700;  
+}
+
+.InputPassword{
+    margin-top: 0px;
+    margin-left: 20px;
+    background-color: #dcecff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    font-family: "Sour Gummy", sans-serif;
+    color: #428ce2;
+    font-size: 20px;
+
+}
+
+.EnterButton{
+    margin-top: 20px;
+    margin-left: 50px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: #5f91ce;
+    border-radius: 5px;
+    font-family: "Sour Gummy", sans-serif;
+    color: white;
+
+}
+
+.EnterButton:hover {
+    background-color: #78abea;
+
+}
+
+.PF {
+    margin-top: -10px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -20px;
+    width: 1325px;
+    height: 626px;
+}
+
+.Border {
+    position: absolute;
+    top: 0%; 
+    left: 0%; 
+    width: 1285px; 
+    height: 20px; 
+    background-color:#3875bd;
+    padding: 20px; 
+
+}
+
+.PfpBG {
+    position: absolute;
+    top: 0%;
+    left: 1%;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 350px;
+    box-shadow: #1e4572;
+
+}
+
+.Profile {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -5px;
+    top:0%;
+    left: -60px;
+    height: 200px;
+    width: 350px;
+}  
+
+.IntBox {
+    position: absolute;
+    top: 0%; 
+    left: 0%; 
+    margin-top: 260px;
+    margin-left: 20px;
+    width: 190px; 
+    height: 310px; 
+    background-color: white;
+    padding: 20px; 
+    border-radius: 20px;
+  }
+  
+  .WidgetBox {
+    position: absolute;
+    top: 0%; 
+    left: 0%; 
+    margin-top: 90px;
+    margin-left: 1080px;
+    width: 190px; 
+    height: 480px; 
+    background-color: white;
+    padding: 20px; 
+    border-radius: 20px;
+  }
+
+  .Greeting {
+    margin-top: -500px;
+    margin-left: 260px;
+    margin-bottom: 5px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 52px;  
+    color: #1e4572;
+    font-style: oblique;
+    font-weight: 700;  
+  }
+
+  .HighlightLine{
+    position: absolute;
+    margin-left: 250px;
+    width: 800px;
+    height: 10px;
+    background-color:#3875bd;
+    border-radius: 5px;
+  }
+
+  .AboutMe{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 260px;
+    width: 100px;
+    height: 80px;
+    background-color:#3875bd;
+    border-radius: 20px;
+  }
+
+  .AboutmeContainer{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 260px;
+    width: 780px;
+    height: 200px;
+    background-color: #3875bd;
+    border-radius: 25px;
+  }
+
+  .Mp3Container{
+    overflow: hidden; 
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 260px;
+    width: 320px;
+    height: 150px;
+    background-color: #5f91ce;
+    border-radius: 20px;
+  }
+
+  .PL {
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 595px;
+    width: 440px;
+    height: 90px;
+    background-color: #3875bd;
+    border-radius: 10px;
+  }
+
+  .ViewProjects {
+    margin-top:  370px;
+    margin-left: 595px;
+    background-color: #3875bd;
+    width: 440px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+
+  .ViewProjects:hover{
+    background-color: #7cadea;
+  }
+
+.W2E {
+    margin-top: -5px;
+    margin-left: 5px;
+    width: 185px;
+    height: 160px;
+}
+
+
+.Record {
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 190px;
+    height: 190px;
+}
+
+.CatIcon {
+    margin-top: -55px;
+    margin-left: -10px;
+    width: 200px;
+    height: 190px;
+}
+
+.Interest{
+    margin-top: -10px;
+    margin-left: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 35px;
+    color: #1e4572;
+}
+
+.Gaming {
+    margin-top: -10px;
+    margin-left: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
+    color: #3875bd;
+}
+
+.Art {
+    margin-top: -20px;
+    margin-left: 0px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
+    color: #3875bd;
+}
+
+.Manga {
+    margin-top: -10px;
+    margin-left: 0px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;
+    color: #3875bd;
+}
+
+.Prog {
+    margin-top: -10px;
+    margin-left: 5px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;
+    color: #3875bd;
+}
+
+.Music {
+    margin-top: -7px;
+    margin-left: 2px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 18px;
+    color: #3875bd;
+}
+
+.Studying {
+    margin-top: -5px;
+    margin-left: 2px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
+    color: #3875bd;
+
+}
+
+.Dots {
+    margin-top: -40px;
+    margin-left: 80px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 35px;
+    color: #3875bd;
+
+}
+
+.AboutMeHeather {
+    margin-top: 2px;
+    margin-left: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.DiscR {
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: -85px;
+    width: 150px;
+    height: 150px;
+    animation: ali_frame 8s linear infinite; 
+}
+
+@keyframes ali_frame {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.PLText {
+    margin-top: 2px;
+    margin-left: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 18px;
+    color: white
+
+}
+
+.Py {
+    margin-top: -5px;
+    margin-left: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 15px;
+    color: white
+
+}
+
+.Html {
+    margin-top: -5px;
+    margin-left: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 15px;
+    color: white
+
+}
+
+/* MP3 BUTTONS */
+.PrevButton {
+    margin-top: -50px;
+    margin-left: 150px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #5f91ce;
+}
+
+.PrevButton img {
+    width: 50px;
+    height: 35px;
+
+}
+
+.PrevButton :hover{
+    background-color: #3875bd;
+}
+
+.NextButton {
+    border-left: -5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #5f91ce;
+}
+
+.NextButton img {
+    margin-left: -10px;
+    width: 50px;
+    height: 35px;
+
+}
+
+.NextButton :hover{
+    background-color: #3875bd;
+}
+
+
+.PlayButton {
+    border-left: -5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #5f91ce;
+}
+
+.PlayButton img {
+    margin-left: -10px;
+    width: 60px;
+    height: 35px;
+
+}
+
+.PlayButton :hover{
+    background-color: #3875bd
+}
+
+.MusicEmo {
+    margin-top: -100px;
+    margin-left: 190px;
+    font-size: 30px;
+
+}
+
+.AboutText {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.CatPeeking {
+    margin-top: -50px;
+    margin-left: 395px;
+    margin-bottom: -10px;
+    width: 500px;
+    height: 300px;
+
+
+}
+
+.ProjectContainer {
+    margin-top: -32px;
+    margin-left: 50px;
+    width: 1150px;
+    height: 2200px;
+    background-color: #1e4572;
+    box-shadow: 0 10px 10px #3875bd;
+    padding: 20px; 
+    border-radius: 25px;
+}
+
+.RPSBD {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 720px;
+    height: 470px;
+    background-color: #dcecff;
+    border-radius: 20px;
+
+}
+
+.RPSPic {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 700px;
+    height: 450px;
+    background-color: white;    
+    border-radius: 20px;
+
+}
+
+.RPS {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 680px;
+    height: 430px;
+}
+
+.RPSDesc {
+    margin-top: -470px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.RPSInfo {
+    margin-top: 30px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 22px;
+    color: white;
+
+}
+
+.GroceryBD {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 720px;
+    height: 470px;
+    background-color: #dcecff;
+    border-radius: 20px;
+
+}
+
+.GroceryPic {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 700px;
+    height: 450px;
+    background-color: white;    
+    border-radius: 20px;
+
+
+}
+
+.Grocery {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 680px;
+    height: 430px;
+}
+
+.GroceryDesc {
+    margin-top: -470px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.GroceryText {
+    margin-top: 30px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 22px;
+    color: white;
+
+}
+
+.ATMBD {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 720px;
+    height: 470px;
+    background-color: #dcecff;
+    border-radius: 20px;
+
+}
+
+.ATMPic {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 700px;
+    height: 450px;
+    background-color: white;    
+    border-radius: 20px;
+}
+
+.ATM {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 620px;
+    height: 430px;
+}
+
+.ATMDesc {
+    margin-top: -470px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.ATMInfo {
+    margin-top: 30px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 23px;
+    color: white;
+
+}
+
+.Mp3BD {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 720px;
+    height: 470px;
+    background-color: #dcecff;
+    border-radius: 20px;
+
+
+}
+
+.Mp3Pic{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 700px;
+    height: 450px;
+    background-color: white;    
+    border-radius: 20px;
+}
+
+.Mp3 {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 620px;
+    height: 420px;
+}
+
+.Mp3Desc {
+    margin-top: -470px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.Mp3Info {
+    margin-top: 30px;
+    margin-left: 770px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 22px;
+    color: white;
+
+}
+
+.BackToMainPF {
+    margin-top: 20px;
+    margin-left: 950px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #5492db;
+    color: white;
+}
+
+.BackToMainPF:hover{
+    background-color: #74adef;
+}
+
+.SocButtons {
+    background: none;
+    border: none;
+    border-width: 0px;
+}
+
+
+.FB {
+    margin-top: -10px;
+    margin-left: 1220px;
+    margin-bottom: -17px;
+    width: 70px;
+    height: 40px;
+}
+
+.IG {
+    margin-top: -40px;
+    margin-left: 1160px;
+    width: 70px;
+    height: 40px;
+}
+
+.TT {
+    margin-top: -200px;
+    margin-left: 1105px;
+    margin-bottom: 11px;
+    width: 55px;
+    height: 50px;
+}
+
+
